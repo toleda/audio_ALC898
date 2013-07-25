@@ -25,8 +25,8 @@ Audio_IDs: 1, 2 and 3 require HDMI audio dsdt edits for HDMI audio
 
 Three techniques enable the Patched ALC898 AppleHDA.kext, select one
 1. no dsdt/audio enabler = Audio_ID, install one enabler, not both
-1a. Audio_ID = 1/HDAEnabler1.kext
-1b. Audio_ID = 2/HDAEnabler2.kext
+1a. Audio_ID = 1/HDAEnabler1.kext https://github.com/toleda/audio_HDAEnabler1
+1b. Audio_ID = 2/HDAEnabler2.kext https://github.com/toleda/audio_HDAEnabler2
 2. dsdt/HDEF/layout-id = Audio_ID, Guide] Add or Edit dsdt/HDEF.pdf
 2a. Audio_ID = 1/layout-id: 0x01, 0x00, 0x00, 0x00, 0x00
 2b. Audio_ID = 2/layout-id: 0x02, 0x00, 0x00, 0x00, 0x00
