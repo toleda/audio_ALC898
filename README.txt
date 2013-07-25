@@ -25,16 +25,16 @@ Audio_IDs: 1, 2 and 3 require HDMI audio dsdt edits for HDMI audio
 
 Three techniques enable the Patched ALC898 AppleHDA.kext, select one
 1. no dsdt/audio enabler = Audio_ID, install one enabler, not both
-1a. Audio_ID = 1, HDAEnabler1.kext
-1b. Audio_ID = 2, HDAEnabler2.kext
+1a. Audio_ID = 1/HDAEnabler1.kext
+1b. Audio_ID = 2/HDAEnabler2.kext
 2. dsdt/HDEF/layout-id = Audio_ID, Guide] Add or Edit dsdt/HDEF.pdf
-2a. Audio_ID = 1, 0x01, 0x00, 0x00, 0x00, 0x00
-2b. Audio_ID = 2, 0x02, 0x00, 0x00, 0x00, 0x00
-2c. Audio_ID = 3, 0x03, 0x00, 0x00, 0x00, 0x00
+2a. Audio_ID = 1/layout-id: 0x01, 0x00, 0x00, 0x00, 0x00
+2b. Audio_ID = 2/layout-id: 0x02, 0x00, 0x00, 0x00, 0x00
+2c. Audio_ID = 3/layout-id: 0x03, 0x00, 0x00, 0x00, 0x00
 3. Clover/Config.plist/PCI/HDAInjection, ML-Clover Patched ALC AppleHDA Injection.pdf
-3a. Audio_ID = 1, HDAInjection=1
-3b. Audio_ID = 2, HDAInjection=2
-3c. Audio_ID = 3, HDAInjection=3
+3a. Audio_ID = 1/HDAInjection=1
+3b. Audio_ID = 2/HDAInjection=2
+3c. Audio_ID = 3/HDAInjection=3
 
 Download
 1. https://github.com/toleda/audio_ALC898
