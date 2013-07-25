@@ -36,7 +36,7 @@ ________________________________________________________________________________
 ALC898 Patch Procedure
 Open Applications/Utilities/Terminal
 One at a time, copy each command below, Paste into the Terminal window and press Enter
-The ALC898 Patch Procedure makes a backup of the original AppleHDA.kext (AppleHDA-orig.kext) and a backup of the installed patched ALC898 AppleHDA.kext (AppleHDA.kext) available in Desktop/audio_ALC898. Uncommented Terminal commands below.
+The ALC898 Patch makes a backup of the original AppleHDA.kext (AppleHDA-orig.kext) and a backup of the installed patched ALC898 AppleHDA.kext (AppleHDA.kext) available in Desktop/audio_ALC898. Uncommented Terminal commands below.
 
 I.	Patch preparation/Backup installed AppleHDA.kext/Fix patch file permissions
 
