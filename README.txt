@@ -93,7 +93,7 @@ Details - audio_ALC898-ver_patch script  (see Requirements)
 4. Example: Terminal/audio_alc898-85_patch window
 _____________________________
 
-...$ /Users/dtottle/Downloads/audio_ALC898-master/audio_alc898-85_patch.command ; exit;
+...$ .../Downloads/audio_ALC898-master/audio_alc898-85_patch.command ; exit;
 Prepare Desktop/audio_ALC898 ...
 Archive:  898.zip
    creating: 898/
