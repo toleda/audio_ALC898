@@ -1,6 +1,6 @@
 #!/bin/sh
 # Maintained by: toleda for: github.com/toleda/audio_ALC898
-# File: audio_alc898-85_patch.sh_v1.0
+# File: audio_alc898-85_patch.command_v1.0
 # Credit: THeKiNG, VCH888, .:ErmaC:., bcc9, RevoGirl, PikeRAlpha, SL_UnderWater,
 # hackintoshfreedom
 #
@@ -12,14 +12,15 @@
 # 3. Verify Downloads/audio_ALC898-master present
 #
 # Installation
-# 1. Finder/File/Open With/Terminal
-# 2. Enter password at prompt
+# 1. Downloads/audio_ALC898-master/audio_alc898-85_patch.command
+# 2. Double click audio_alc898-85_patch.command
+# 3. Enter password at prompt
 #
 echo " "
 echo "Agreement"
-echo "The audio_ALC1150_patch is for personal use only. Do not distribute the patch," 
+echo "The audio_ALC898_patch is for personal use only. Do not distribute the patch," 
 echo "any or all of the enclosed files or the resulting patched AppleHDA.kext for any" 
-echo "reason without permission. The audio_ALC1150_patch is provided as is and without" 
+echo "reason without permission. The audio_ALC898_patch is provided as is and without" 
 echo "any kind of warranty."
 echo " "
 #
