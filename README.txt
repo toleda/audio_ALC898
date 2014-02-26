@@ -8,10 +8,11 @@ ____________________________________________________________Download ZIP >  >
 
 Requirements
 1. Native S/L/E/AppleHDA.kext (restore native AppleHDA.kext with Combo Update)
-2a. alc898-91 - Mavericks 10.9.1/AppleHDA.kext_v2.5.3
-2a. alc898-90 - Mavericks 10.9/AppleHDA.kext_v2.5.2
-2b. alc898-85 - Mountain Lion 10.8.5/AppleHDA.kext_v2.4.7
-2c. alc898-84 - Mountain Lion 10.8 - 10.8.4/AppleHDA.kext_v2.3.7
+2a. alc898-91 - Mavericks 10.9.2/AppleHDA.kext_v2.6.0
+2b. alc898-91 - Mavericks 10.9.1/AppleHDA.kext_v2.5.3
+2c. alc898-90 - Mavericks 10.9/AppleHDA.kext_v2.5.2
+2d. alc898-85 - Mountain Lion 10.8.5/AppleHDA.kext_v2.4.7
+2e. alc898-84 - Mountain Lion 10.8 - 10.8.4/AppleHDA.kext_v2.3.7
 
 Realtek ALC AppleHDA Guides https://github.com/toleda/audio_ALCInjection
 1. M-Realtek ALC AppleHDA Capabilities.pdf
@@ -55,10 +56,11 @@ Download
 
 Installation/Shell Script/.command
 1. Downloads/audio_ALC898-master/
-1a. for 10.9.1/audio_alc898-91_patch.command
-1b. for 10.9/audio_alc898-90_patch.command
-1c. for 10.8.5 and newer/audio_alc898-85_patch.command
-1a. for 10.8.4 and older/audio_alc898-84_patch.command
+1a. for 10.9.2/audio_alc898-92_patch.command
+1b. for 10.9.1/audio_alc898-91_patch.command
+1c. for 10.9/audio_alc898-90_patch.command
+1d. for 10.8.5 and newer/audio_alc898-85_patch.command
+1e. for 10.8.4 and older/audio_alc898-84_patch.command
 
 2. Launch (double click: audio_alc898-ver_patch.command)
 3. Enter password at prompt
@@ -83,10 +85,11 @@ THe KiNG
 VHC888
 .:ErmaC:.
 bcc9
-RevoGirl
+RevoGirl rip
 
 toleda
 https://github.com/toleda/audio_ALC898
+audio_alc898-92_patch.command
 audio_alc898-91_patch.command
 audio_alc898-90_patch.command
 audio_alc898-85_patch.command
