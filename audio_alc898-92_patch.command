@@ -11,19 +11,25 @@
 # 3. Verify Downloads/audio_ALC898-master present
 #
 # Installation
-# 1. Finder/File/Open With/Terminal
-# 2. Enter password at prompt
+# 1. Downloads/audio_ALC898-master/audio_alc898-92_patch.command
+# 2. Double click audio_alc898-92_patch.command
+# 3. Enter password at prompt
 #
-# Agreement
-# The audio_ALC898_patch is for personal use only.  Do not distribute the patch, any or 
-# all of the enclosed files or the resulting patched AppleHDA.kext for any reason without # permission. The audio_ALC898_patch is provided as is and without any kind of warranty.
+echo " "
+echo "Agreement"
+echo "The audio_ALC898_patch is for personal use only. Do not distribute the patch," 
+echo "any or all of the enclosed files or the resulting patched AppleHDA.kext for any" 
+echo "reason without permission. The audio_ALC898_patch is provided as is and without" 
+echo "any kind of warranty."
+echo " "
 #
 echo "Prepare Desktop/audio_ALC898 ..."
 cd ~
+rm -rf Desktop/audio_ALC898
 cp -R Downloads/audio_ALC898-master Desktop/audio_ALC898
 cp -R /System/Library/Extensions/AppleHDA.kext Desktop/audio_ALC898/AppleHDA-orig.kext
 cd Desktop/audio_ALC898
-unzip 898.zip
+unzip -q 898.zip
 cd 898
 
 echo "Install files ..."
@@ -39,7 +45,6 @@ echo "Fix permissions ..."
 sudo chown -R root:wheel /System/Library/Extensions/AppleHDA.kext
 
 echo "Kernel cache..."
-sudo rm -fr /System/Library/Caches/*
 sudo touch /System/Library/Extensions
 
 cd ~
